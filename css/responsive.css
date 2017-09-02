@@ -1,0 +1,317 @@
+/***************************************************
+  Large screen. 
+***************************************************/
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .container {
+        width: 1200px
+    }
+}
+/****************************************************
+  Laptop screen 
+****************************************************/
+@media (min-width: 1170px) and (max-width: 1366px) {
+    .container {
+        width: 1200px
+    }
+    .sidebar-bookmark-area {
+      margin-top: 30px;
+    }
+}
+/****************************************************
+  Old desktop
+****************************************************/
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {
+        width: 970px
+    }
+    /*Header style*/
+    .slider-content h1 {
+        font-size: 56px;
+    }
+    .profile-wrapper {
+        padding-top: 30px;
+    }
+    .mainmenu-expand.slide_right {
+        overflow-y: auto;
+    }
+    /*Resume style*/
+    .resume-wrapper.left {
+        padding-right: 0;
+    }
+    .resume-wrapper.right {
+        padding-left: 0;
+    }
+    /*Counter style*/
+    .single-counter.second {
+        padding-right: 0;
+    }
+    .single-counter.third {
+        padding-left: 0;
+    }
+    .single-counter.first,
+    .single-counter.fourth {
+        float: none;
+    }
+    .counter-content h3 {
+        font-size: 22px;
+    }
+    /*Blog style*/
+    .blog-post.horizontal .post-thumbnail {
+        float: none;
+        width: 100%;
+    }
+    .blog-post.horizontal .post-content {
+        float: none;
+        padding: 25px 30px;
+        width: 100%;
+    }
+    .post-content-inner {
+        text-align: center;
+    }
+    /*Contact style*/
+    .contact-address h4 {
+        font-size: 16px;
+    }
+}
+/****************************************************
+  Tablet screen 
+****************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px
+    }
+    /*Header style*/
+    #main-menu li {
+        padding: 0 8px;
+    }
+    .slider-content h1 {
+        font-size: 40px;
+    }
+    .mainmenu-expand.slide_right {
+        overflow-y: auto;
+    }
+    /*About style*/
+    .profile-image {
+        margin-right: 0;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .profile-wrapper {
+        margin-left: 0;
+        text-align: center;
+    }
+    .profile-image {
+        margin: 0 auto;
+        width: 500px;
+    }
+    .profile-wrapper .section-title h1 {
+        display: inline-block;
+    }
+    /*Portfolio style*/
+    .portfolio-item {
+        width: 50%;
+    }
+    .portfolio-item-big {
+        width: 50%
+    }
+    /*Resume style*/
+    .resume-wrapper.left {
+        padding-right: 0;
+    }
+    .resume-wrapper.right {
+        padding-left: 0;
+    }
+    .resume-title {
+        padding-left: 0;
+    }
+    .single-counter {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .single-counter:first-child .counter-content,
+    .single-counter:last-child .counter-content {
+        float: none;
+    }
+    .single-counter:nth-child(2) .counter-content,
+    .single-counter:nth-child(3) .counter-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /*Blog style*/
+    .post-thumbnail .img-responsive {
+        width: 100%;
+    }
+    .blog-post.horizontal .post-content {
+        padding: 20px 25px;
+    }
+    /*Contact style*/
+    .contact-wrapper {
+        padding: 20px;
+    }
+    .contact-address h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+}
+/****************************************************
+  Small mobile
+****************************************************/
+@media (max-width: 767px) {
+    .container {
+        width: 300px
+    }
+    /*Header style*/
+    .header-area {
+        padding-top: 30px;
+    }
+    .main-menu-wrapper {
+        display: none;
+    }
+    .cd-headline.clip.is-full-width {
+        display: none;
+    }
+    .slider-content .mobile-slider-title {
+        font-size: 30px;
+        display: block;
+    }
+    .profile-description li {
+        display: block;
+    }
+    .profile-description li::after {
+        display: none;
+    }
+    .header-social {
+        bottom: 30px;
+    }
+    .header-social a {
+        margin: 0 5px;
+    }
+    .mainmenu-expand.slide_right {
+        overflow-y: auto;
+    }
+    /*About style*/
+    .profile-image {
+        margin-right: 0;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .profile-wrapper {
+        margin-left: 0;
+    }
+    .profile-action-btn .button {
+        display: block;
+        margin-bottom: 30px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .profile-action-btn .button:last-child {
+        margin: 0;
+    }
+    .skill-area .col-sm-6:first-child .single-progressbar:last-child {
+        margin-bottom: 42px;
+    }
+    /*Porrtfolio style*/
+    .portfolio-filter li {
+        margin-bottom: 10px;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-item-big {
+        width: 100%
+    }
+    .portfolio-details-inner h3 {
+        font-size: 20px;
+    }
+    /*Resume style*/
+    .resume-title {
+        padding-left: 0;
+    }
+    .resume-wrapper.left {
+        padding-right: 0;
+    }
+    .resume-wrapper.right {
+        padding-left: 0;
+    }
+    /*Counter style*/
+    .single-counter {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single-counter:first-child .counter-content {
+        float: none;
+    }
+    .single-counter:nth-child(2) .counter-content {
+        padding-right: 0;
+    }
+    .single-counter:nth-child(3) .counter-content {
+        padding-left: 0;
+    }
+    .single-counter:last-child .counter-content {
+        float: none;
+    }
+    /*Blog style*/
+    .blog-post.horizontal .post-thumbnail {
+        float: none;
+        width: 100%;
+    }
+    .blog-post.horizontal .post-content {
+        float: none;
+        padding: 25px 30px;
+        width: 100%;
+    }
+    .post-content-inner {
+        text-align: center;
+    }
+    /*Contact style*/
+    .contact-wrapper {
+        padding: 30px 15px;
+    }
+    .contact-address h4 {
+        font-size: 16px;
+    }
+    /*Footer style*/
+    .footer-social a {
+        margin: 0 5px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    #back-top {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+/****************************************************
+  Large mobile :480px. 
+*****************************************************/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    /*Header style*/
+    .slider-content .mobile-slider-title {
+        font-size: 45px;
+    }
+    .profile-description li {
+        display: inline-block;
+    }
+    .profile-description li::after {
+        display: block;
+    }
+    /*About style*/
+    .profile-action-btn .button {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+    /*Blog style*/
+    .post-thumbnail img {
+        width: 100%;
+    }
+}
